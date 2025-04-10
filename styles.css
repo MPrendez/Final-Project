@@ -166,8 +166,16 @@ header .row {
     max-width: 768px;
 }
 
+
+
 .header__descript--para {
     margin: 32px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__input {
+
 }
 
 .header__email {
@@ -176,7 +184,7 @@ header .row {
     height: 68px;
     position: relative;
     display: flex;
-    justify-content: flex-end;
+    justify-self: flex-end;
     align-items: center;
 }
 
@@ -205,9 +213,9 @@ h1 {
     line-height: 1.25;
     font-weight: bold;
     position: relative;
-}
-
-.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .container {
@@ -220,4 +228,18 @@ h1 {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
+}
+
+.header__customers--title {
+    margin-top: 80px;
+    color: #a0aec0;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+}
+
+.header__customers {
+    margin-top: 16px;
+    padding-right: 128px;
+    opacity: 0.5;
 }
