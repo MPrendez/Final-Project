@@ -177,6 +177,7 @@ nav {
     background-color: #fff;
     border: 1px solid rgb(229, 231, 235);
     border-radius: 8px;
+    display: none;
     z-index: 4;
     visibility: hidden;
     opacity: 0;
@@ -209,6 +210,7 @@ nav {
     border-radius: 500px;
     border: none;
 }
+
 
 .menu--open .modal {
     visibility: visible;
