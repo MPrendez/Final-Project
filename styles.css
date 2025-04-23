@@ -215,6 +215,11 @@ nav {
     border: none;
 }
 
+.menu--open .modal {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
+}
 
 
 .btn__menu--close {
@@ -1342,13 +1347,6 @@ footer {
         width: 100%;
         max-width: 512px;
         margin: 0 auto;
-    }
-
-    .menu--open .modal {
-        display: block;
-        visibility: visible;
-        opacity: 1;
-        transform: translateX(0);
     }
 
     .btn__menu {
